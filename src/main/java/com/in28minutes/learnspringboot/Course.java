@@ -5,6 +5,7 @@ public class Course {
 	private long id;
 	private String name;
 	private String author;
+	private String name2;
 	
 
 	
@@ -37,6 +38,7 @@ public class Course {
 	@Override
 	public String toString() {
 		return "Course [id=" + id + ", name=" + name + ", author=" + author + "]";
+	
 	}
 
 }
